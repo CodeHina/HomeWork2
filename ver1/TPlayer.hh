@@ -19,12 +19,12 @@ public:
 
     virtual ~TPlayer() {  }
     
-    inline void show_name()
+    inline void show_name() const
     {
         std::cout << m_name << std::endl;
     }
         
-    void play_role(TRole& hero);
+    void play_role(TRole& hero/*i*/);
 
 private:
         

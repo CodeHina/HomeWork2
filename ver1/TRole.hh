@@ -14,7 +14,7 @@ public:
 
     virtual ~TRole() {}
     
-    virtual void UseSkills(const TSkills& skills) = 0;
+    virtual void UseSkills(const TSkills& skills/*i*/) = 0;
 
 private:
     

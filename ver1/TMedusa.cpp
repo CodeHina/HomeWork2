@@ -2,7 +2,7 @@
 
 
 
-void TMedusa::UseSkills(const TSkills& skills)
+void TMedusa::UseSkills(const TSkills& skills/*i*/) 
 {
     int skill_flag = -1;
 

@@ -12,7 +12,7 @@ public:
     TMedusa() : TRole() {}
     ~TMedusa() {}
     
-    void UseSkills(const TSkills& skills);
+    void UseSkills(const TSkills& skills/*i*/);
         
 
 
